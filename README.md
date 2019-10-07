@@ -5,6 +5,7 @@ TipDivider webapp running on NodeJS. This project is running on: https://mastery
 ```bash
 cd /srv
 git clone https://github.com/jetibest/tipdivider && cd tipdivider
+npm install
 node main.js 8081
 ```
 
