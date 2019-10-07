@@ -2,6 +2,8 @@
 TipDivider webapp running on NodeJS. This project is running on: https://masteryeti.com/tipdivider/
 
 # Installation on Linux
+The installation depends on [NodeJS](https://nodejs.org/) and [NPM (Node Package Manager)](https://npmjs.com/).
+
 ```bash
 cd /srv
 git clone https://github.com/jetibest/tipdivider && cd tipdivider
