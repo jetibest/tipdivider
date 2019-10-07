@@ -1,5 +1,5 @@
 # tipdivider
-TipDivider webapp running on NodeJS
+TipDivider webapp running on NodeJS. This project is running on: https://masteryeti.com/tipdivider/
 
 # Installation on Linux
 ```bash
@@ -11,7 +11,7 @@ node main.js 8081
 Your webserver should proxy to http://localhost:8081/ so that it may use a proper domain/path and HTTPS on the front-end.
 
 # Systemd service-file for tipdivider
-nodejs-tipdivider.service:
+*/root/nodejs-tipdivider.service*:
 ```
 [Unit]
 Description=TipDivider project
@@ -25,4 +25,10 @@ RestartSec=2
 
 [Install]
 WantedBy=multi-user.target
+```
+
+Usage:
+```bash
+systemctl enable /root/nodejs-tipdivider.service
+systemctl start nodejs-tipdivider
 ```
